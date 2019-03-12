@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tugas on Rifky Fuady</title>
+    <link>https://rifkyfu32.github.io/tags/tugas/</link>
+    <description>Recent content in Tugas on Rifky Fuady</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Wed, 09 Jan 2013 04:02:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rifkyfu32.github.io/tags/tugas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pemrograman Pascal Dengan Function (Tugas Algoritma Dan Pemrograman)</title>
+      <link>https://rifkyfu32.github.io/blog/pemrograman-pascal-dengan-function-tugas-algoritma-dan-pemrograman/</link>
+      <pubDate>Wed, 09 Jan 2013 04:02:00 +0000</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/pemrograman-pascal-dengan-function-tugas-algoritma-dan-pemrograman/</guid>
+      <description>PEMROGRAMAN PASCAL DENGAN FUNCTIONMungkin kali ini saya posting denga kata-kata yang seadanya saja, lagi males posting artikel, karena kali ini saya hanya akan Sharing tugas Algo &amp;amp; Pemrograman,&amp;hellip;.
+Tugas ini diperintahkan oleh Pak Wahyu Setianto, S.Kom YTH dan harus dikumpulkan sebelum UTS, ini tugasnya :
+
+1. tampilkan bilangan yang bisa dibagi 4 dan 6
+2. hitung luas segitiga
+3. menentukan bilangan apakah genap atau ganjil
+Semua dengan Function,
+Saya tidak akan menjelaskan panjang lebar apa itu Function, karena mungkin anda bisa mencari sendiri di mbah Google yah&amp;hellip;?</description>
+    </item>
+    
+    <item>
+      <title>Tugas Algoritma Dan Pemrograman - Array Dimensi Banyak</title>
+      <link>https://rifkyfu32.github.io/blog/tugas-algoritma-dan-pemrograman---array-dimensi-banyak/</link>
+      <pubDate>Mon, 17 Dec 2012 15:55:00 +0000</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/tugas-algoritma-dan-pemrograman---array-dimensi-banyak/</guid>
+      <description>For Pak&amp;nbsp;Wahyu Setianto, M.Kom
+BAB IPEMBAHASANA.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;PendahuluanBab ini akan mengemukakan bahasan tentang definisi array, deklarasi array, mengakses elemen array, array sebagai tipe data bentukan, array konstan, array sebagai parameter, array multidimensi.Pembahasan pada bab ini sangat penting dipahami, karena materi array ini memberikan manfaat yaitu efisiensi program. Materi array sangat berkaitan dengan materi lainnya dalam sebuah pemrograman terstruktur, karena array dapat digunakan dan dikombinasikan dengan bahasan lain dalam sebuah program.B. &amp;nbsp;&amp;nbsp;&amp;nbsp;PenyajianBagi para pemrogram, efisiensi program merupakan hal utama yang harus diperhatikan, baik itu dalam hal kecepatan jalannya program, memori yang digunakan, banyak baris kode yang dituliskan dan juga ketepatan algoritma yang digunakan.</description>
+    </item>
+    
+    <item>
+      <title>Tugas Arsitektur Dan Organsasi Komputer - Pengenalan Bahasa Assembly</title>
+      <link>https://rifkyfu32.github.io/blog/tugas-arsitektur-dan-organsasi-komputer---pengenalan-bahasa-assembly/</link>
+      <pubDate>Wed, 12 Dec 2012 00:46:00 +0000</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/tugas-arsitektur-dan-organsasi-komputer---pengenalan-bahasa-assembly/</guid>
+      <description>For &amp;nbsp;Bpk.&amp;nbsp;Sattriedi W.B,S.Si,M.Kom
+PENGENALAN BAHASA ASSEMBLYBAB I . PENDAHULUAN1.1 LATAR BELAKANGBahasa Assembly&amp;nbsp; atau&amp;nbsp; Rakitan&amp;nbsp; diprakarsai oleh&amp;nbsp; IBM&amp;nbsp; pada&amp;nbsp; tahun&amp;nbsp; 1956&amp;nbsp; – 1963.Bahasa&amp;nbsp; assembly&amp;nbsp; termasuk&amp;nbsp; bahasa&amp;nbsp; tingkat&amp;nbsp; rendah.&amp;nbsp; Pada&amp;nbsp; tahun&amp;nbsp; 1957,&amp;nbsp; sebuah&amp;nbsp; tim&amp;nbsp; yangdipimpin oleh&amp;nbsp; John W. Backus berhasil mengembangkan sebuah bahasa baru yang lebihmengarah pada keperluan untuk menganalisa persoalan numeric. Extensi yang dihasilkandari bahasa assembly adalah file dengan extensi Com dan Exe. Secara umum kedua jenisfile&amp;nbsp; tersebut memiliki&amp;nbsp; perbedaan&amp;nbsp; antara&amp;nbsp; program&amp;nbsp; yang&amp;nbsp; berekstensi&amp;nbsp; Com dan&amp;nbsp; Exe,&amp;nbsp; yangmerupakan ukuran luas daerah yang menyebabkan kelainan program dalam assembler.</description>
+    </item>
+    
+    <item>
+      <title>Tugas Soal Ujian Praktek Dan Latihan UTS</title>
+      <link>https://rifkyfu32.github.io/blog/tugas-soal-ujian-praktek-dan-latihan-uts/</link>
+      <pubDate>Wed, 24 Oct 2012 14:19:00 +0000</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/tugas-soal-ujian-praktek-dan-latihan-uts/</guid>
+      <description>For Pak Wahyu Setianto M.Kom
+Karena saya lihat teman-teman banyak yang pada bingung buat ngerjain tugasnya pak wahyu yg super disiplin, maka hati sanubari saya terguagah untuk berbagi pada teman-teman saya, terutama 1M42&amp;hellip;
+Soalnya kan fotocopi, saya lagi kepepet + males nulis, maka saya scan aja so&amp;rsquo;alnya&amp;hellip;
+ini soal Latihan :
+ini soal ujian praktek :Download Source code + exe nya disini.</description>
+    </item>
+    
+    <item>
+      <title>Respon Sistem Operasi (Kelas 1m42)</title>
+      <link>https://rifkyfu32.github.io/blog/respon-sistem-operasi-kelas-1m42/</link>
+      <pubDate>Sun, 21 Oct 2012 22:57:00 +0000</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/respon-sistem-operasi-kelas-1m42/</guid>
+      <description>for Pak M. Rifqi Maulana M.Kom
+1. Jelaskan mengenai Multiprogramming, Multiprocessing dan Distributed Processing!- &amp;nbsp;Multiprogramming adalah kegiatan menjalankan beberapa program pada memori pada satu waktu.- Multiprocessing adalah istilah teknologi informasi dalam bahasa Inggris yang merujuk kepada kemampuan pemrosesan komputer yang dilakukan secara serentak- &amp;nbsp;Mengerjakan semua proses pengolahan data secara bersama antara komputer pusat dengan beberapa komputer yang lebih kecil dan saling dihubungkan melalui jalur komunikasi2. Sebutkan 2 fungsi utama Sistem Operasi&amp;nbsp; dan 3 fungsi minor Sistem Operasi !</description>
+    </item>
+    
+    <item>
+      <title>Tugas Algoritma dan Pemrograman</title>
+      <link>https://rifkyfu32.github.io/blog/tugas-algoritma-dan-pemrograman/</link>
+      <pubDate>Fri, 12 Oct 2012 11:19:00 +0000</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/tugas-algoritma-dan-pemrograman/</guid>
+      <description>For Pak Wahyu Setianto, M.Kom
+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+BUAT SEBUAH MENU HIDANGAN RUMAH MAKAN &amp;ldquo;KENYANG&amp;rdquo;
+PILIHAN MENU RM &amp;ldquo;KENYANG&amp;rdquo;
+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+&amp;nbsp; A. NASI GORENG
+1. NG DAGING
+2. NG TELUR
+3. NG BABAT
+&amp;nbsp; B. MIE
+1. MIE GORENG
+2. MIE KUAH
+&amp;nbsp; C. CAPCAY
+1. CAPCAY KUAH
+2. CAPCAY GORENG
+PILIH MENU ?
+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+JIKA DI PILIH &amp;nbsp;B MAKA AKAN TAMPIL MENU SEPERTI DI BAWAH INI :
+&amp;nbsp; &amp;nbsp; MENU MIE</description>
+    </item>
+    
+  </channel>
+</rss>
