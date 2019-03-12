@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Tue, 12 Mar 2019 22:18:15 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2019 23:33:49 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Deploy Github</title>
+      <link>https://rifkyfu32.github.io/blog/hugo-deploy-github/</link>
+      <pubDate>Tue, 12 Mar 2019 23:33:49 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/hugo-deploy-github/</guid>
+      <description>Github memiliki layanan hosting Static Page yang bisa kita manfaatkan untuk hosting Hugo.
+Pada dasarnya SSG seperti Hugo akan membuat sebuah file statis yang (biasanya) berada di dalam direktori public.
+Nah direktori ini yang akan kita upload ke Github agar website atau blog kita bisa dibuka melalui: https://username.github.io atau kustom domain sendiri.
+Berdasarkan panduan di dokumentasi Hugo, ada empat cara yang bisa dilakukan untuk hosting Hugo di Github:
+ Hosting ke direktori doc Hosting ke cabang gh-pages Hosting ke halaman personal/organisasi Hosting Github dengan Continuous Integration (CI)  Kita akan mencoba cara yang nomer 3, karena menurut saya cukup gampang.</description>
+    </item>
     
     <item>
       <title>Hugo Import Blogger</title>
