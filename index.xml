@@ -6,10 +6,21 @@
     <description>Recent content on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Tue, 12 Mar 2019 23:33:49 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2019 11:27:43 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://rifkyfu32.github.io/privacy-policy/</link>
+      <pubDate>Wed, 13 Mar 2019 11:27:43 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/privacy-policy/</guid>
+      <description>This blog does not share personal information with third parties nor do we store any information about your visit to this blog other than to analyze and optimize your content and reading experience through the use of cookies.
+You can turn off the use of cookies at anytime by changing your specific browser settings.
+We are not responsible for republished content from this blog on other blogs or websites without our permission.</description>
+    </item>
     
     <item>
       <title>Hugo Deploy Github</title>
