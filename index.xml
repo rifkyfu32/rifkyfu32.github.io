@@ -6,10 +6,21 @@
     <description>Recent content on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Wed, 13 Mar 2019 11:27:43 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2019 22:02:53 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Membuat Tampilan Login Ciamik dengan Flutter</title>
+      <link>https://rifkyfu32.github.io/blog/flutter-login-ciamik/</link>
+      <pubDate>Wed, 13 Mar 2019 22:02:53 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/flutter-login-ciamik/</guid>
+      <description>Apa itu Flutter? Flutter adalah sebuah framework open-source yang dikembangkan oleh Google untuk membangun antarmuka (user interface/UI) aplikasi Android dan iOS.
+Aplikasi yang kita buat dengan Flutter dapat di-build ke Android dan iOS. Ini untungnya belajar Flutter, sekali coding aplikasi, bisa digunakan pada Android dan iOS. Enak bukan?
+Membuat user interface mobile yang menarik dengan code terkadang sulit dilakukan, namun tidak demikian jika menggunakan Flutter SDK Framework. Framework ini diklaim bisa membuat aplikasi mobile multi platform dan dapat membuat user interface yang menarik serta menjanjikan performa yang baik.</description>
+    </item>
     
     <item>
       <title>Privacy Policy</title>
