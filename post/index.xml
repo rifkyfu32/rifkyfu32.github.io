@@ -23,7 +23,7 @@ Membuat user interface mobile yang menarik dengan code terkadang sulit dilakukan
     </item>
     
     <item>
-      <title>Hugo Deploy Github</title>
+      <title>Cara Cepat Deploy Hugo ke Github Pages</title>
       <link>https://rifkyfu32.github.io/blog/hugo-deploy-github/</link>
       <pubDate>Tue, 12 Mar 2019 23:33:49 +0700</pubDate>
       
@@ -36,7 +36,7 @@ Berdasarkan panduan di dokumentasi Hugo, ada empat cara yang bisa dilakukan untu
     </item>
     
     <item>
-      <title>Hugo Import Blogger</title>
+      <title>Mudahnya Mengisi Artikel Hugo dari Blogger</title>
       <link>https://rifkyfu32.github.io/blog/hugo-import-blogger/</link>
       <pubDate>Tue, 12 Mar 2019 22:18:15 +0700</pubDate>
       
@@ -52,15 +52,18 @@ Kemudian lakukan langkah-langkah berikut ini.
     </item>
     
     <item>
-      <title>Hello Word, Hello Hugo!</title>
+      <title>Hello Word, Hello Hugo! (Ngeblog dari Teks Editor dan Terminal ala Programmer)</title>
       <link>https://rifkyfu32.github.io/blog/hello-word/</link>
       <pubDate>Tue, 12 Mar 2019 17:29:51 +0700</pubDate>
       
       <guid>https://rifkyfu32.github.io/blog/hello-word/</guid>
       <description>Hello World!
-ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog dengan Hugo. Sekarang lagi dikembangkan dengan tema Hugo Bootstrap v4 Blog.
-Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress. Meskipun saya belum mengerti bahasa pemrograman Go.
-Saya menggunakan skrip dari dokumentasi Hugo untuk melakukan deploy. Karena saya tidak menggunakan Continous Integration (CI). Jadi setiap mau deploy harus eksekusi skrip tersebut. Berikut ini skripnya.</description>
+Saya punya blog,
+CMS-nya menggunakan Blogger…
+…tapi tidak pernah terurus.
+Mungkin saya malas, karena koneksi internet yang kurang cepat.
+Kendala yang saya alami:
+ Malas upload gambar satu per satu ketika membuat artikel. Tidak bisa ngedit artikel secara offline. Tidak memiliki kuasa penuh terhadap CMS-nya. Kurang aman. dan masih banyak lagi.  Karena itu, sekarang saya lebih suka ngeblog dari teks editor menggunakan SSG (Satatic Site Generator) daripada CMS seperti Wordpress.</description>
     </item>
     
     <item>
