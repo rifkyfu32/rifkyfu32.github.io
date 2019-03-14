@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Thu, 14 Mar 2019 22:47:52 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2019 22:48:26 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Antrian Sms Gateway</title>
+      <link>https://rifkyfu32.github.io/blog/antrian-sms-gateway/</link>
+      <pubDate>Thu, 14 Mar 2019 22:48:26 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/antrian-sms-gateway/</guid>
+      <description>Ekstrak file antrian-sms-gateway.zip. Isi file ada 3, direktori simpusbatang, file simpus-sms.zip dan file smsonline.sql. Import file smsonline.sql ke database puskesmas. Install gammu, lihat disini. Ekstrak file simpus-sms.zip, copy hasil ekstrak ke dalam direktori :  Jika server baru copy ke direktori /var/www/html/. Jika server lama copy ke direktori htdoc dari lampp.  Sesuaikan konfigurasi koneksi database aplikasi simpus-sms di file config/koneksi.php, (gunakan database puskesmas, bukan sayangbunda), kemudian coba jalankan aplikasi simpus-sms dengan mengakses atau membuka url aplikasinya (http://localhost/simpus-sms/) di browser.</description>
+    </item>
     
     <item>
       <title>Cara Cepat dan Lengkap Bikin Sms Gateway dengan Gammu</title>
