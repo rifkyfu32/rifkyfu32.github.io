@@ -6,10 +6,36 @@
     <description>Recent content in Tag on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Wed, 13 Mar 2019 22:02:53 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2019 22:47:52 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/tags/tag/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cara Cepat dan Lengkap Bikin Sms Gateway dengan Gammu</title>
+      <link>https://rifkyfu32.github.io/blog/gammu-sms-gateway/</link>
+      <pubDate>Thu, 14 Mar 2019 22:47:52 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/gammu-sms-gateway/</guid>
+      <description>Apa itu SMS-Gateway?
+Secara sederhana SMS-Gateway adalah suatu layanan SMS (Short Message Service) yang memungkinkan untuk melakukan pengiriman SMS, maupun penerimaan SMS melalui komputer. Kita bisa dengan mudah melakukan menejemen SMS dengan komputer kita.
+Pada kesempatan kali ini saya akan berbagi cara membangun SMS-Gateway dengan Gammu. Spesifikasi sistem operasi komputer saya menggunakan Ubuntu 18.04 LTS dan modem Wavecom Fastrack M1306B.
+Berikut langkah-langkah instalasinya :
+ Install gammu dan juga gammu-smsd menggunakan terminal, pastikan terhubung dengan internet.</description>
+    </item>
+    
+    <item>
+      <title>Laporan PDF cantik, Auto Wrap Content Table dengan FPDF</title>
+      <link>https://rifkyfu32.github.io/blog/fpdf-wrap-cell/</link>
+      <pubDate>Thu, 14 Mar 2019 22:47:33 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/fpdf-wrap-cell/</guid>
+      <description>Pernah gak sih, pas lagi bikin laporan dengan FPDF, ternyata hasilnya tidak sesuai harapan?
+Saat isi data pada suatu kolom melebihi lebar dari kolom tersebut, maka tulisannya akan kepotong alias gak keliatan. Hehe&amp;hellip;
+Kebetulan tadi sore saya sendiri mengalaminya, biar gak lupa mending catet aja di blog.
+Perkenalan sedikit, FPDF adalah library PHP yang bisa kita manfaatkan untuk membuat file PDF (bikin laporan).
+Bagi anda yang belum pernah menggunakan library FPDF, silahkan bermain-main dengan tutorial dasarnya terlebih dahulu.</description>
+    </item>
     
     <item>
       <title>Membuat Tampilan Login Ciamik dengan Flutter</title>
