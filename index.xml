@@ -6,13 +6,45 @@
     <description>Recent content on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Thu, 14 Mar 2019 22:47:52 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 16 Mar 2019 04:15:55 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Cara Cepat dan Lengkap Bikin Sms Gateway dengan Gammu</title>
+      <title>Wawasan wajib yang harus dikuasai Programmer</title>
+      <link>https://rifkyfu32.github.io/blog/wawasan-programmer/</link>
+      <pubDate>Sat, 16 Mar 2019 04:15:55 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/wawasan-programmer/</guid>
+      <description>Sekedar catatan pribadi, berbagi sedikit pengalaman.
+Menurut saya seorang yang mau menjadi programmer harus mempunyai wawasan sebagai berikut :
+ Konsep dasar sistem operasi. Konsep dasar jaringan. Konsep dasar relational database. Karena sekarang jaman internet, maka wajib memahami protokol HTTP, FTP, POP3, SMTP, SSH. Karena sekarang jaman mobilisasi, maka wajib memahami lifecycle Android dan IOS. Karena sekarang jaman globalisasi, maka wajib memahami Unicode. Lebih dari satu bahasa pemrograman. Cara menggunakan Version Control.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Membuat Aplikasi Pemutar Musik Android dan IOS dengan Flutter</title>
+      <link>https://rifkyfu32.github.io/blog/pemutar-musik-flutter/</link>
+      <pubDate>Sat, 16 Mar 2019 01:48:31 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/pemutar-musik-flutter/</guid>
+      <description>Nada-nada yang diatur indah dalam sebuah musik memiliki efek yang besar bagi kita. Harmoni suara ini bisa menjadi media penyembuhan, mengusir kecemasan, menenangkan, hingga mendongkrak semangat.
+ Ngoding tanpa dengerin musik, seperti makan sayur kurang micin (hambar)&amp;hellip; :sweat_smile:  Bagi saya medengarkan musik tak hanya bisa menghibur, saat malam hari sunyi sepi ngoding sendiri (jodoh undefined ) :joy: kode program bermasalah gak ketemu-ketemu solusinya, dengan mendengarkan musik yang saya sukai terkadang bisa mendatangkan inspirasi ide solusi dari masalah tersebut.</description>
+    </item>
+    
+    <item>
+      <title>Membangun Aplikasi Toko Buku Multiplatform dengan Flutter</title>
+      <link>https://rifkyfu32.github.io/blog/toko-buku-flutter/</link>
+      <pubDate>Fri, 15 Mar 2019 21:40:35 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/toko-buku-flutter/</guid>
+      <description>Siapa bilang membuat aplikasi mobile multiplatform itu sulit?
+Dengan Flutter semua terasa mudah, karena everything is a widget, membuat widget yang ringan dan dapat digunakan kembali, ngoding terasa lebih ringkas dan lebih efisien, apalagi sekali ngoding bisa di-build ke Android dan iOS.
+Kali ini kita akan membuat aplikasi sederhana toko buku, sebelum itu bagi anda yang belum pernah ngoding dengan flutter sebaiknya anda membaca artikel saya sebelumnya yang berjudul Membuat Tampilan Login Ciamik dengan Flutter agar lebih mudah mengikuti tutorial kali ini.</description>
+    </item>
+    
+    <item>
+      <title>Panduan Lengkap Membangun Sms Gateway dengan Gammu</title>
       <link>https://rifkyfu32.github.io/blog/gammu-sms-gateway/</link>
       <pubDate>Thu, 14 Mar 2019 22:47:52 +0700</pubDate>
       
