@@ -6,10 +6,34 @@
     <description>Recent content on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Sat, 16 Mar 2019 04:15:55 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2019 21:45:47 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Enakan Android Native, Flutter atau React Native?</title>
+      <link>https://rifkyfu32.github.io/blog/native-webview-reactive-flutter/</link>
+      <pubDate>Mon, 25 Mar 2019 21:45:47 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/native-webview-reactive-flutter/</guid>
+      <description>Ketika saya showoff aplikasi yang saya buat dengan flutter di sosial media, ada salah seorang teman dari kampus bertanya :
+ Enakan android native, flutter atau react native?  Sebelum menjawab itu, mungkin alangkah lebih baik saya memberikan sedikit informasi sebatas yang saya tahu mengenai hal tersebut.
+Native languages atau SDK OEM
+Mungkin yang teman saya sebut android native itu maksudnya adalah Native languages. Berikut gambaran-nya :
+Aplikasi yang dibuat menggunakan native language memungkinkan berkomunikasi untuk membuat widget, atau mengakses service seperti kamera, gps, dll.</description>
+    </item>
+    
+    <item>
+      <title>Dinkes Batang Luncurkan Aplikasi Mobile Multiplatform</title>
+      <link>https://rifkyfu32.github.io/blog/dinkes-inovasi-mobile/</link>
+      <pubDate>Mon, 25 Mar 2019 21:04:31 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/dinkes-inovasi-mobile/</guid>
+      <description>Dinas Kesehatan merupakan Satuan Kerja Perangkat Daerah di Kabupaten Batang yang memiliki tanggung jawab menjalankan kebijakan Pemerintah Kabupaten Batang dalam bidang kesehatan.
+Dinas Kesehatan (Dinkes) Kabupaten Batang kembali melakukan inovasi dalam meningkatkan pelayanan kesehatan kepada masyarakat dengan meluncurkan portal informasi berbasis teknologi informasi berbentuk aplikasi mobile multiplatform.
+Didalam aplikasi ini terdapat berita, kegiatan, artikel dan informasi lain di lingkungan kerja Dinas Kesehatan Kabupaten Batang, masyarakat bisa mengakses dan medapatkan informasi sehingga menggerakkan masyarakat untuk hidup sehat.</description>
+    </item>
     
     <item>
       <title>Wawasan wajib yang harus dikuasai Programmer</title>
@@ -127,7 +151,7 @@ Kemudian lakukan langkah-langkah berikut ini.
       
       <guid>https://rifkyfu32.github.io/portofolio/</guid>
       <description>Halaman ini berisi project yang pernah saya kerjakan dan yang sedang dikerjakan. Ada yang bersifat side project dan ada juga yang serius. Untuk project private, saya tidak cantumkan di sini. Untuk project yang lainnya bisa ditemukan di Github.
-Dinkes Batang  URL: dinkes.batangkab.go.id Status: production  Web resmi Dinas Kesehatan Kabupaten Batang menyediakan informasi untuk siapa saja yang ingin mengetahui berita maupun informasi di lingkungan instansi Dinas Kesehatan Kabupaten Batang.</description>
+Aplikasi mobile Dinkes Batang  URL: Google Play Status: production  Portal aplikasi mobile resmi Dinas Kesehatan Kabupaten Batang yang memberikan informasi kepada masyarakat yang ingin mendapat berita, kegiatan maupun artikel di lingkungan instansi Dinas Kesehatan Kabupaten Batang.</description>
     </item>
     
     <item>
