@@ -6,10 +6,21 @@
     <description>Recent content on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Mon, 01 Apr 2019 19:39:00 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Apr 2019 21:58:46 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aplikasi Dragon Ball dengan Animasi di Flutter</title>
+      <link>https://rifkyfu32.github.io/blog/flutter-animasi-dragonball/</link>
+      <pubDate>Mon, 01 Apr 2019 21:58:46 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/flutter-animasi-dragonball/</guid>
+      <description>Siapa yang gak tau Dragon Ball hayoo?
+Ketika dahulu saya masih kecil, teringat jelas setiap hari minggu adalah hari paling ditunggu, setiap jam 09.00 WIB di Indosiar setia menonton film animasi Dragon Ball, televisi saat itu masih berbentuk tabung dan nonton bareng sama tetangga saya dekat rumah.
+Kali ini kita akan belajar bikin aplikasi karakter Dragon Ball dengan animasi sederhana di Flutter sambil ber-nostalgia mengingat karakter-karakter yang ada di film animasi Dragon Ball.</description>
+    </item>
     
     <item>
       <title>Stackoverflow Kena Deface ?</title>
