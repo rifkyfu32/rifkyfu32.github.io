@@ -6,10 +6,20 @@
     <description>Recent content in Tag on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Mon, 25 Mar 2019 21:45:47 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Apr 2019 19:39:00 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/tags/tag/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stackoverflow Kena Deface ?</title>
+      <link>https://rifkyfu32.github.io/blog/stackoverflow-kena-deface/</link>
+      <pubDate>Mon, 01 Apr 2019 19:39:00 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/stackoverflow-kena-deface/</guid>
+      <description>Ada yang aneh dengan tampilan web Stack Overflow hari ini, yaitu tanggal 1 April 2019.
+Sebagai informasi menurut saya, Stack Overflow adalah alat yang sangat dibutuhkan untuk progammer di seluruh dunia selama bertahun-tahun. Progammer tahu bahwa ketika mereka menemukan masalah saat membangun aplikasi, mereka akan mencari tahu kemudian mendapatkan hasil pencarian jawaban dari Stack Overflow, kemungkinan pencarian solusi untuk masalahnya berakhir. Di Stack Overflow, mereka dapat bertanya dan meminta solusi beberapa ke developer di seluruh dunia secara langsung.</description>
+    </item>
     
     <item>
       <title>Enakan Android Native, Flutter atau React Native?</title>
