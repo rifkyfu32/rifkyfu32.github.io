@@ -6,10 +6,22 @@
     <description>Recent content on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Mon, 01 Apr 2019 21:58:46 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 20:29:06 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Membuat aplikasi konverter youtube ke Mp3 mutiplatform</title>
+      <link>https://rifkyfu32.github.io/blog/konverter-youtube-mp3/</link>
+      <pubDate>Mon, 08 Apr 2019 20:29:06 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/konverter-youtube-mp3/</guid>
+      <description>Sering sekali saya menemukan lagu yang menurut pendapat saya bagus di Youtube, akan tetapi saya hanya ingin mendengarkan lagunya saja tidak dengan videonya.
+Alih-alih ingin menghemat kuota internet dirumah (Indihome berkuota :joy:), saya sering melakukan konvert youtube ke mp3 dengan aplikasi web ini Online Video Converter kalo saya sedang memakai komputer&amp;hellip;
+Bagaimana kalo di smartphone?
+Beberapa kali saya mencoba donwload aplikasi dari Apps Store ada dua jenis aplikasi, yaitu aplikasi gratis tetapi banyak iklan atau yang tidak ada iklan tetapi berbayar, hehe&amp;hellip; :sweat_smile:</description>
+    </item>
     
     <item>
       <title>Aplikasi Dragon Ball dengan Animasi di Flutter</title>
