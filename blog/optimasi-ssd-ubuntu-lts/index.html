@@ -12,12 +12,12 @@
 
 <meta itemprop="name" content="Optimasi SSD &amp; Konfigurasi Web Server di Ubuntu 18.04">
 <meta itemprop="description" content="Catatan pribadi :
- SSD untuk Ubuntu 18.04.2 LTS, full hanya satu partisi root / HDD untuk menyimpan data  fstab  buka fstab  sudo gedit /etc/fstab   matikan update tanggal file noatime,nodiratime :  UUID=d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors=remount-ro 0 1   pindah file log ke RAM :  tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0  Scheduler I/O:  bikin file 60-ssd-scheduler.">
+ SSD untuk Ubuntu 18.04.2 LTS, full hanya satu partisi root / HDD untuk menyimpan data  fstab  buka fstab  sudo gedit /etc/fstab   matikan update tanggal file noatime,nodiratime :  UUID=d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors=remount-ro 0 1   pindah file log ke RAM :  tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0  Scheduler I/O : Untuk SSD direkomendasikan oleh Wiki Ubuntu memakai I/O deadline.">
 
 
 <meta itemprop="datePublished" content="2019-08-04T23:46:41&#43;07:00" />
 <meta itemprop="dateModified" content="2019-08-04T23:46:41&#43;07:00" />
-<meta itemprop="wordCount" content="425">
+<meta itemprop="wordCount" content="442">
 
 
 
@@ -26,7 +26,7 @@
 
 <meta property="og:title" content="Optimasi SSD &amp; Konfigurasi Web Server di Ubuntu 18.04" />
 <meta property="og:description" content="Catatan pribadi :
- SSD untuk Ubuntu 18.04.2 LTS, full hanya satu partisi root / HDD untuk menyimpan data  fstab  buka fstab  sudo gedit /etc/fstab   matikan update tanggal file noatime,nodiratime :  UUID=d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors=remount-ro 0 1   pindah file log ke RAM :  tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0  Scheduler I/O:  bikin file 60-ssd-scheduler." />
+ SSD untuk Ubuntu 18.04.2 LTS, full hanya satu partisi root / HDD untuk menyimpan data  fstab  buka fstab  sudo gedit /etc/fstab   matikan update tanggal file noatime,nodiratime :  UUID=d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors=remount-ro 0 1   pindah file log ke RAM :  tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0  Scheduler I/O : Untuk SSD direkomendasikan oleh Wiki Ubuntu memakai I/O deadline." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://rifkyfu32.github.io/blog/optimasi-ssd-ubuntu-lts/" />
 
@@ -133,13 +133,13 @@ ga('send', 'pageview');
 
 <ul>
 <li><code>SSD</code> untuk <code>Ubuntu 18.04.2 LTS</code>, full hanya satu partisi <code>root</code> /</li>
-<li><code>HDD</code> untuk menyimpan data</li>
+<li><code>HDD</code> untuk <code>menyimpan</code> data</li>
 </ul>
 
 <h1 id="fstab">fstab</h1>
 
 <ul>
-<li>buka fstab</li>
+<li>buka <code>fstab</code></li>
 </ul>
 
 <pre><code class="language-bash">sudo gedit /etc/fstab 
@@ -153,7 +153,7 @@ ga('send', 'pageview');
 </code></pre>
 
 <ul>
-<li>pindah file log ke RAM :</li>
+<li>pindah file <code>log</code> ke <code>RAM</code> :</li>
 </ul>
 
 <pre><code class="language-bash">tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0
@@ -161,7 +161,9 @@ tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0
 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0
 </code></pre>
 
-<h1 id="scheduler-i-o">Scheduler I/O:</h1>
+<h1 id="scheduler-i-o">Scheduler I/O :</h1>
+
+<p>Untuk SSD direkomendasikan oleh <a href="https://wiki.ubuntu.com/Kernel/Reference/IOSchedulers">Wiki Ubuntu</a> memakai I/O <code>deadline</code>.</p>
 
 <ul>
 <li>bikin file <code>60-ssd-scheduler.rules</code></li>
@@ -191,18 +193,20 @@ tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0
 <pre><code class="language-bash">for f in /sys/block/sd?/queue/scheduler; do printf &quot;$f is &quot;; cat $f; done
 </code></pre>
 
+<h1 id="web-server-dan-database">Web Server dan Database</h1>
+
 <p>Tujuan penggunaan untuk develop aplikasi, untuk aplikasi web dalam membangun <code>Web Server</code> menggunakan <code>Apache</code>.</p>
 
 <p>Karena tidak akan menyimpan aplikasi di /var/www/html tetapi di HDD menggunakan <code>Symbolic link</code>.</p>
 
 <p>Log yang sudah dipindah di RAM (<code>fstab</code>) akan hilang ketika di restart akan terjadi error tidak bisa menjalankan <code>Apache</code> maupun <code>MySql</code>.</p>
 
-<p>Maka dari memerlukan konfigurasi <strong>ekstra</strong>.</p>
+<p>Maka dari itu memerlukan konfigurasi <strong>ekstra</strong>.</p>
 
 <h1 id="apache2">Apache2</h1>
 
 <ul>
-<li>membuat log apache</li>
+<li>membuat <code>log apache</code></li>
 </ul>
 
 <pre><code class="language-bash">sudo mkdir /var/apache2/
@@ -268,7 +272,7 @@ CustomLog /var/www/web/access.log combined
 </code></pre>
 
 <ul>
-<li>restart apache</li>
+<li><code>restart</code> apache</li>
 </ul>
 
 <pre><code class="language-bash">sudo service apache2 restart
@@ -276,10 +280,10 @@ CustomLog /var/www/web/access.log combined
 
 <h1 id="mrcrypt">Mrcrypt</h1>
 
-<p><a href="https://gist.github.com/rifkyfu32/65c45e00999548a7c37f61395c7bcbe6">gist</a></p>
+<p><a href="https://gist.github.com/rifkyfu32/65c45e00999548a7c37f61395c7bcbe6">sumber gist</a></p>
 
 <ul>
-<li>install ekstensi mcrypt</li>
+<li><code>install ekstensi</code> mcrypt</li>
 </ul>
 
 <pre><code class="language-bash">sudo apt-get install php7.2-dev
@@ -288,8 +292,8 @@ sudo pecl install mcrypt-1.0.1
 </code></pre>
 
 <ul>
-<li>tekan Enter untuk autodetect.</li>
-<li>tambahkan ke cli dan apache2 php.ini</li>
+<li>tekan Enter untuk <code>autodetect</code>.</li>
+<li>tambahkan ke <code>cli</code> dan <code>apache2</code> php.ini</li>
 </ul>
 
 <pre><code class="language-bash">sudo bash -c &quot;echo extension=/usr/lib/php/20170718/mcrypt.so &gt; /etc/php/7.2/cli/conf.d/mcrypt.ini&quot;
@@ -297,7 +301,7 @@ sudo bash -c &quot;echo extension=/usr/lib/php/20170718/mcrypt.so &gt; /etc/php/
 </code></pre>
 
 <ul>
-<li>cek ekstensi terinstall</li>
+<li><code>cek</code> ekstensi terinstall</li>
 </ul>
 
 <pre><code class="language-bash">php -i | grep mcrypt
@@ -313,7 +317,7 @@ sudo bash -c &quot;echo extension=/usr/lib/php/20170718/mcrypt.so &gt; /etc/php/
 <h1 id="mysql">Mysql</h1>
 
 <ul>
-<li>membuat log mysql</li>
+<li>membuat <code>log mysql</code></li>
 </ul>
 
 <pre><code class="language-bash">sudo mkdir /var/mysql/
@@ -331,7 +335,7 @@ sudo chmod 0640 /var/mysql/error.log
 <pre><code class="language-bash">sudo gedit /etc/apparmor.d/usr.sbin.mysqld
 </code></pre>
 
-<pre><code class="language-bash">Allow log file access :
+<pre><code class="language-bash"># Allow log file access :
   /var/mysql.err rw,
   /var/mysql.log rw,
   /var/mysql/ r,
@@ -346,7 +350,7 @@ sudo chmod 0640 /var/mysql/error.log
 </code></pre>
 
 <ul>
-<li>mengarahkan log dan izin remote koneksi</li>
+<li><code>mengarahkan</code> log dan <code>izin</code> remote koneksi</li>
 </ul>
 
 <pre><code class="language-bash">sudo gedit /etc/mysql/mysql.conf.d/mysqld.cnf
@@ -357,7 +361,7 @@ bind-address = 0.0.0.0
 </code></pre>
 
 <ul>
-<li>restart MySql</li>
+<li><code>restart</code> MySql</li>
 </ul>
 
 <pre><code class="language-bash">sudo service mysql restart
@@ -366,7 +370,7 @@ bind-address = 0.0.0.0
 <h1 id="allow-remote-dbquery">Allow remote dbquery</h1>
 
 <ul>
-<li>membuat user untuk remote db</li>
+<li><code>membuat</code> user untuk <code>remote</code> db</li>
 </ul>
 
 <pre><code class="language-bash">CREATE USER 'docker'@'localhost' IDENTIFIED BY 'docker';

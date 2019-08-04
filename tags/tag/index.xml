@@ -18,7 +18,7 @@
       
       <guid>https://rifkyfu32.github.io/blog/optimasi-ssd-ubuntu-lts/</guid>
       <description>Catatan pribadi :
- SSD untuk Ubuntu 18.04.2 LTS, full hanya satu partisi root / HDD untuk menyimpan data  fstab  buka fstab  sudo gedit /etc/fstab   matikan update tanggal file noatime,nodiratime :  UUID=d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors=remount-ro 0 1   pindah file log ke RAM :  tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0  Scheduler I/O:  bikin file 60-ssd-scheduler.</description>
+ SSD untuk Ubuntu 18.04.2 LTS, full hanya satu partisi root / HDD untuk menyimpan data  fstab  buka fstab  sudo gedit /etc/fstab   matikan update tanggal file noatime,nodiratime :  UUID=d8c6a126-8cbe-4f72-8ab2-2e9b09b28a25 / ext4 noatime,nodiratime,errors=remount-ro 0 1   pindah file log ke RAM :  tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0 tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0  Scheduler I/O : Untuk SSD direkomendasikan oleh Wiki Ubuntu memakai I/O deadline.</description>
     </item>
     
     <item>
