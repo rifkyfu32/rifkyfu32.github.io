@@ -6,10 +6,82 @@
     <description>Recent content in Posts on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Sun, 04 Aug 2019 23:46:41 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2019 21:26:09 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Menambahkan Daftar Tabel, Gambar, dan Lampiran Otomatis</title>
+      <link>https://rifkyfu32.github.io/blog/daftar-tabel-gambar-lampiran-otomatis/</link>
+      <pubDate>Sat, 17 Aug 2019 21:26:09 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/daftar-tabel-gambar-lampiran-otomatis/</guid>
+      <description>Semuanya bisa OTOMATIS
+ Saat memasukkan gambar atau tabel pada laporan, biasanya kita menambahkan nomor beserta penjelasan singkat tentang gambar yang dimaksud.
+Penomoran gambar dan tabel pun tidak boleh sembarangan karena nomor tersebut menunjukkan letak gambar/tabel serta urutannya pada dokumen.
+Penomoran Gambar dan Tabel, dimulai dari nomor Bab diikuti dengan urutan gambar tersebut di dokumen kalian. (nomor bab).(urutan gambar).
+Misal, gambar X ada di Bab 2, sebelumnya sudah ada 3 gambar di Bab 1, berarti gambar X ada di urutan keempat.</description>
+    </item>
+    
+    <item>
+      <title>Menambahkan Daftar Isi Secara Otomatis</title>
+      <link>https://rifkyfu32.github.io/blog/daftar-isi-otomatis/</link>
+      <pubDate>Sat, 17 Aug 2019 21:17:12 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/daftar-isi-otomatis/</guid>
+      <description>Goodbye daftar isi manual yang di ketik-ketik sampe titik-titik dari ujung ke ujung :D
+ Sebelum lanjut membaca, ada baiknya kalian baca dulu ini.
+dan baca ini sebagai kunci utama untuk membuat DAFTAR ISI OTOMATIS.
+Untuk membuat daftar isi secara otomatis, kita harus memformat Judul BAB, SUBBAB, beserta anakannya sebagai Headings.
+ Judul BAB - Heading 1 SUBBAB 1 - Heading 2 SUBBAB 2 - Heading 3 SUBBAB 3 - Heading 4   Jika semua BAB dan SUBBAB sudah diberi Style Heading berdasarkan urutan di atas, kalian tinggal menambahkan daftar isi otomatis!</description>
+    </item>
+    
+    <item>
+      <title>Penomoran Halaman Microsoft Word</title>
+      <link>https://rifkyfu32.github.io/blog/penomoran-halaman-ms-word/</link>
+      <pubDate>Sat, 17 Aug 2019 21:01:24 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/penomoran-halaman-ms-word/</guid>
+      <description>Membuat nomor halaman berbeda pada satu dokumen (angka Romawi [i, ii, ii] dan angka biasa [1, 2, 3])
+ Penomoran halaman biasanya ada yang berbeda pada halaman tertentu. Ada yang menggunakan angka romawi dan ada yang menggunakan angka biasa.
+Angka romawi biasanya digunakan untuk penomoran halaman Ringkasan, Kata Pengantar, Daftar Isi, Daftar Tabel dll. Angka biasa digunakan untuk penomoran dimulai dari BAB I dst. Sebelumnya, bikin halaman baru kalau sisa halaman masih banyaaak banget jangan pakai enter sampai halamannya nambah ya :(( jangan pokoknya.</description>
+    </item>
+    
+    <item>
+      <title>Styles dan Headings Microsoft Word</title>
+      <link>https://rifkyfu32.github.io/blog/styles-heading-ms-word/</link>
+      <pubDate>Sat, 17 Aug 2019 20:34:25 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/styles-heading-ms-word/</guid>
+      <description>Kunci daftar isi otomatis
+ Apasih fitur Styles sama Headings ini? Emang apa gunanya? Eitts, fitur ini sangat berguna loh untuk membuat tulisan kalian tetap konsisten, memformat tulisan dengan satu kali klik.
+Sedangkan Headings adalah jenis Style yang biasa digunakan untuk memformat judul BAB, SUBBAB, dan anakkannya. Headings ini nantinya sangat berguna untuk membuat Daftar Isi.
+Sebelumnya kita akan membuat format untuk Style-style yang akan digunakan. Agar nanti saat penulisan kita bisa memformat tulisan atau judul dengan sekali klik aja.</description>
+    </item>
+    
+    <item>
+      <title>Proofing Tools Bahasa Indonesia</title>
+      <link>https://rifkyfu32.github.io/blog/proofing-tools-indonesia/</link>
+      <pubDate>Sat, 17 Aug 2019 20:03:26 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/proofing-tools-indonesia/</guid>
+      <description>Membuat laporan, makalah, atau proposal bebas dari typo ataupun salah penulisan di Microsoft Word
+ Apasih proofing tools? Apasih gunanya Proofing tools? Proofing tools atau alat pembuktian ini adalah tools tambahan dari Microsoft, nah tools ini digunakan untuk mengoreksi kata maupun ejaan yang kita tulis di Microsoft Office.
+Kalau kalian lihat kata-kata yang digaris bawahi merah, nah itu adalah salah satu kegunaan Proofing tools. Yakni menunjukkan kata-kata yang salah penulisannya, tidak ada di kamus, atau tidak sesuai standar.</description>
+    </item>
+    
+    <item>
+      <title>Bikin Laporan Skripsi menjadi mudah</title>
+      <link>https://rifkyfu32.github.io/blog/penulisan-laporan-ms-word/</link>
+      <pubDate>Sat, 17 Aug 2019 19:46:36 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/penulisan-laporan-ms-word/</guid>
+      <description>Sebuah catatan untuk kalian yang ingin tahu cara menulis tanpa typo, membuat styles serta headings, menambahkan nomor halaman berbeda, dan daftar isi/gambar/tabel/lampiran otomatis di Microsoft Word.
+Catatan ini akan berisi cara-cara mempermudah penulisan di Microsoft Word agar lebih efisien dan hemat waktu.
+yang akan dibahas dalam catatan ini ada 5 poin utama, yaitu:
+ Proofing Tools Bahasa Indonesia Styles dan Headings Format Penomoran Halaman Menambahkan Daftar Isi Menambahkan Daftar Tabel, Daftar Gambar, dan Daftar Lampiran  Agar tidak telalu panjang karena penjelasan akan sedetail mungkin, catatan ini akan dibagi beberapa halaman.</description>
+    </item>
     
     <item>
       <title>Optimasi SSD &amp; Konfigurasi Web Server di Ubuntu 18.04</title>
