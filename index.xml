@@ -6,10 +6,21 @@
     <description>Recent content on Rifky Fuady</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Sat, 17 Aug 2019 21:26:09 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2020 19:22:51 +0700</lastBuildDate>
     
 	<atom:link href="https://rifkyfu32.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Membuat Blog menjadi PWA</title>
+      <link>https://rifkyfu32.github.io/blog/membuat-blog-pwa/</link>
+      <pubDate>Sat, 30 May 2020 19:22:51 +0700</pubDate>
+      
+      <guid>https://rifkyfu32.github.io/blog/membuat-blog-pwa/</guid>
+      <description>Menambahkan fitur PWA ke situs atau blog pribadi anda sangatlah mudah. Blog saya menggunakan static site generator dari Hugo, saya pernah menulis cara Ngeblog dari Teks Editor dan Terminal ala Programmer dengan Hugo dan jika anda masih menggunakan blogger ingin bermigrasi dengan Hugo bisa membaca tulisan saya yang ini Mudahnya Mengisi Artikel Hugo dari Blogger.
+Apa itu PWA dan mengapa saya harus menambahkannya?
+Istilah Progressive Web App diperkenalkan oleh Alex Russel, salah seorang Google Chrome engineer, dan Frances Berriman, desainer yang bekerja untuk Google pada tahun 2015.</description>
+    </item>
     
     <item>
       <title>Menambahkan Daftar Tabel, Gambar, dan Lampiran Otomatis</title>

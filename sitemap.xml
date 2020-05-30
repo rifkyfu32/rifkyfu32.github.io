@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rifkyfu32.github.io/blog/membuat-blog-pwa/</loc>
+    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rifkyfu32.github.io/blog/daftar-tabel-gambar-lampiran-otomatis/</loc>
     <lastmod>2019-08-17T21:26:09+07:00</lastmod>
   </url>
@@ -247,19 +252,19 @@
   
   <url>
     <loc>https://rifkyfu32.github.io/post/</loc>
-    <lastmod>2019-08-17T21:26:09+07:00</lastmod>
+    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rifkyfu32.github.io/</loc>
-    <lastmod>2019-08-17T21:26:09+07:00</lastmod>
+    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rifkyfu32.github.io/tags/tag/</loc>
-    <lastmod>2019-08-17T21:26:09+07:00</lastmod>
+    <lastmod>2020-05-30T19:22:51+07:00</lastmod>
     <priority>0</priority>
   </url>
   
