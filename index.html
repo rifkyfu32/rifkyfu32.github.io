@@ -47,7 +47,7 @@
 
 <meta property="article:author" content="https://web.facebook.com/rifky.fuady2" />
 
-
+<link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/img/favicon.png" />
 
 <link rel="stylesheet" href="/css/bootstrap.min.css" />
@@ -549,7 +549,21 @@ ga('send', 'pageview');
     </div>
     
     
-
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('/sw.js', { scope: '/' })
+                .then(function(registration) {
+                    console.log('Service Worker Registered');
+                });
+      
+            navigator.serviceWorker
+                .ready
+                .then(function(registration) {
+                    console.log('Service Worker Ready');
+                });
+        }
+    </script>
 </body>
 
 </html>
